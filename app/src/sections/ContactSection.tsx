@@ -131,7 +131,7 @@ export default function ContactSection() {
 
         <div className="absolute inset-0">
           <img
-            src="/images/puntacana-hires.jpg"
+            src="./images/puntacana-hires.jpg"
             alt="Punta Cana"
             className="w-full h-full object-cover opacity-30"
           />
@@ -198,7 +198,7 @@ export default function ContactSection() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16">
               <div ref={contentRef}>
                 <img
-                  src="/images/logo-full-white.png"
+                  src="./images/logo-full-white.png"
                   alt="Oceanix Experience — Premium Water Experiences"
                   className="h-32 w-auto mb-8"
                 />

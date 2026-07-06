@@ -144,7 +144,7 @@ export default function SolutionSection() {
           <div ref={imageRef} className="relative">
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden glass-card p-2">
               <img
-                src="/images/efoil-trio.jpg"
+                src="./images/efoil-trio.jpg"
                 alt="eFoil - Oceanix Experience"
                 className="w-full h-full object-cover object-center rounded-2xl"
               />

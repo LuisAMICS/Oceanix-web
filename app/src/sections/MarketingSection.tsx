@@ -182,7 +182,7 @@ export default function MarketingSection() {
           {/* Action banner */}
           <div ref={bannerRef} className="mt-16 relative rounded-3xl overflow-hidden h-56 lg:h-72">
             <img
-              src="/images/efoil-race.jpg"
+              src="./images/efoil-race.jpg"
               alt="eFoils en acción"
               className="w-full h-full object-cover"
             />

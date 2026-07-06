@@ -167,7 +167,7 @@ export default function SafetySection() {
             <div ref={imageRef} className="hidden lg:block relative">
               <div className="sticky top-28 h-full max-h-[720px] rounded-3xl overflow-hidden glass-card p-2">
                 <img
-                  src="/images/efoil-split.jpg"
+                  src="./images/efoil-split.jpg"
                   alt="eFoil sobre aguas cristalinas"
                   className="w-full h-full object-cover rounded-2xl"
                 />

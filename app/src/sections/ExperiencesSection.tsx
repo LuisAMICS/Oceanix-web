@@ -7,10 +7,10 @@ import { useLang } from '../lib/lang'
 gsap.registerPlugin(ScrollTrigger)
 
 const expMeta = [
-  { icon: Star, image: '/images/experience-diamond.jpg' },
-  { icon: Heart, image: '/images/experience-luna-miel.jpg' },
-  { icon: Users, image: '/images/efoil-duo.webp' },
-  { icon: Camera, image: '/images/efoil-river.webp' },
+  { icon: Star, image: './images/experience-diamond.jpg' },
+  { icon: Heart, image: './images/experience-luna-miel.jpg' },
+  { icon: Users, image: './images/efoil-duo.webp' },
+  { icon: Camera, image: './images/efoil-river.webp' },
 ]
 
 const T = {

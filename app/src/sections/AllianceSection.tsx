@@ -128,7 +128,7 @@ export default function AllianceSection() {
           </div>
 
           <div ref={logoRef} className="flex items-center justify-center mb-12">
-            <img src="/images/logo-full-white.png" alt="Oceanix Experience" className="h-28 w-auto" />
+            <img src="./images/logo-full-white.png" alt="Oceanix Experience" className="h-28 w-auto" />
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">

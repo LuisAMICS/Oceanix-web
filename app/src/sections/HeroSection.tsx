@@ -189,7 +189,7 @@ export default function HeroSection() {
       {/* Hero Image Overlay */}
       <div className="absolute inset-0">
         <img
-          src="/images/hero-rider.webp"
+          src="./images/hero-rider.webp"
           alt="Oceanix eFoil Experience"
           className="w-full h-full object-cover object-top opacity-50"
         />
@@ -201,7 +201,7 @@ export default function HeroSection() {
         {/* Logo mark */}
         <img
           ref={logoRef}
-          src="/images/logo-mark-white.png"
+          src="./images/logo-mark-white.png"
           alt="Oceanix"
           className="h-20 md:h-24 w-auto mb-6 drop-shadow-[0_4px_20px_rgba(15,30,60,0.5)]"
         />

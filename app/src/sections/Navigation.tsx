@@ -82,7 +82,7 @@ export default function Navigation() {
             {/* Logo */}
             <a href="#" className="flex items-center gap-3 group" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }}>
               <img
-                src={isScrolled ? '/images/logo-mark.png' : '/images/logo-mark-white.png'}
+                src={isScrolled ? './images/logo-mark.png' : './images/logo-mark-white.png'}
                 alt="Oceanix Experience"
                 className="h-11 w-auto transition-all duration-500"
               />
@@ -161,7 +161,7 @@ export default function Navigation() {
       >
         <div className="absolute inset-0 bg-ocean-navy-deep/95 backdrop-blur-xl" onClick={() => setIsMobileOpen(false)} />
         <div className="relative flex flex-col items-center justify-center h-full gap-8">
-          <img src="/images/logo-mark-white.png" alt="Oceanix" className="h-16 w-auto mb-2" />
+          <img src="./images/logo-mark-white.png" alt="Oceanix" className="h-16 w-auto mb-2" />
           {navLinks.map((link, i) => (
             <button
               key={link.href}
